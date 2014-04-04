@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/eddy">
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/Button_activisme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/activisme" />
+
+    <Button
+        android:id="@+id/button_bijectivite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/bijectivite" />
+
+    <Button
+        android:id="@+id/Button_allusion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_bijectivite"
+        android:layout_alignBottom="@+id/button_bijectivite"
+        android:layout_centerHorizontal="true"
+        android:text="@string/allusion" />
+
+    <Button
+        android:id="@+id/button_calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button_activisme"
+        android:layout_below="@+id/Button_activisme"
+        android:layout_toLeftOf="@+id/Button_allusion"
+        android:text="@string/calcul" />
+
+    <Button
+        android:id="@+id/button_cestclair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_calcul"
+        android:layout_alignBottom="@+id/button_calcul"
+        android:layout_toRightOf="@+id/button_calcul"
+        android:text="@string/cestclair" />
+
+    <Button
+        android:id="@+id/button_eddy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button_bijectivite"
+        android:layout_below="@+id/button_bijectivite"
+        android:layout_toRightOf="@+id/button_cestclair"
+        android:text="@string/eddy" />
+
+    <Button
+        android:id="@+id/button_compendium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_calcul"
+        android:layout_below="@+id/button_calcul"
+        android:text="@string/compendium" />
+
+    <Button
+        android:id="@+id/button_congo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_compendium"
+        android:layout_below="@+id/button_compendium"
+        android:text="@string/congo" />
+
+    <Button
+        android:id="@+id/button_congolais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button_valium"
+        android:layout_below="@+id/button_cestclair"
+        android:layout_toRightOf="@+id/button_compendium"
+        android:text="@string/congolais" />
+
+    <Button
+        android:id="@+id/button_nuclearite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_congo"
+        android:layout_below="@+id/button_congo"
+        android:text="@string/nuclearite" />
+
+    <Button
+        android:id="@+id/button_onshore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_nuclearite"
+        android:layout_alignBottom="@+id/button_nuclearite"
+        android:layout_alignRight="@+id/button_cestclair"
+        android:layout_toRightOf="@+id/button_nuclearite"
+        android:text="@string/onshore" />
+
+    <Button
+        android:id="@+id/button_fromage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_nuclearite"
+        android:layout_below="@+id/button_nuclearite"
+        android:text="@string/fromage" />
+
+    <Button
+        android:id="@+id/button_valium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button_travail"
+        android:layout_below="@+id/button_congolais"
+        android:layout_toRightOf="@+id/button_congo"
+        android:text="@string/valium" />
+
+    <Button
+        android:id="@+id/button_eventualiste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_fromage"
+        android:layout_alignBottom="@+id/button_fromage"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/button_fromage"
+        android:text="@string/eventualiste" />
+
+    <Button
+        android:id="@+id/button_travail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_onshore"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/button_onshore"
+        android:text="@string/travail" />
+
+</RelativeLayout>

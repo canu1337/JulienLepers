@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eddy Malou</string>
+    <string name="action_quit">Quit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="activisme">Activisme</string>
+    <string name="allusion">Allusion</string>
+    <string name="bijectivite">Bijectivité</string>
+    <string name="calcul">Calcul</string>
+    <string name="cestclair">C\'est clair</string>
+    <string name="compendium">Compendium</string>
+    <string name="congo">Congolexicomatisation</string>
+    <string name="congolais">Congolais</string>
+    <string name="eddy">Eddy</string>
+    <string name="nuclearite">Nuclearité</string>
+    <string name="onshore">Onshore</string>
+    <string name="fromage">Carées fous</string>
+    <string name="travail">Travail</string>
+    <string name="valium">Valium</string>
+    <string name="eventualiste">Eventualiste</string>
+
+</resources>
