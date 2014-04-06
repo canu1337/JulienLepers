@@ -21,26 +21,11 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int eddy=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int Button_activisme=0x7f090000;
-        public static final int Button_allusion=0x7f090002;
-        public static final int action_quit=0x7f09000f;
-        public static final int button_bijectivite=0x7f090001;
-        public static final int button_calcul=0x7f090003;
-        public static final int button_cestclair=0x7f090004;
-        public static final int button_compendium=0x7f090006;
-        public static final int button_congo=0x7f090007;
-        public static final int button_congolais=0x7f090008;
-        public static final int button_eddy=0x7f090005;
-        public static final int button_eventualiste=0x7f09000e;
-        public static final int button_fromage=0x7f09000c;
-        public static final int button_nuclearite=0x7f09000a;
-        public static final int button_onshore=0x7f09000b;
-        public static final int button_travail=0x7f09000d;
-        public static final int button_valium=0x7f090009;
+        public static final int action_quit=0x7f090001;
+        public static final int soundlist=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -52,38 +37,40 @@ public final class R {
         public static final int activisme=0x7f040000;
         public static final int allusion=0x7f040001;
         public static final int bijectivite=0x7f040002;
-        public static final int calcul=0x7f040003;
-        public static final int cestclair=0x7f040004;
-        public static final int compendium=0x7f040005;
-        public static final int congo=0x7f040006;
-        public static final int congolais=0x7f040007;
-        public static final int eddy=0x7f040008;
-        public static final int nuclearite=0x7f040009;
-        public static final int onshore=0x7f04000a;
-        public static final int quatre=0x7f04000b;
-        public static final int travail=0x7f04000c;
-        public static final int up=0x7f04000d;
-        public static final int valium=0x7f04000e;
+        public static final int congolexicomatisation=0x7f040003;
+        public static final int dynamisme=0x7f040004;
+        public static final int eddy=0x7f040005;
+        public static final int edoubled=0x7f040006;
+        public static final int encadrer=0x7f040007;
+        public static final int encrystaliser=0x7f040008;
+        public static final int fideles=0x7f040009;
+        public static final int formule=0x7f04000a;
+        public static final int informatise=0x7f04000b;
+        public static final int jevousenprie=0x7f04000c;
+        public static final int kilometrages=0x7f04000d;
+        public static final int lescongolais=0x7f04000e;
+        public static final int lhomme=0x7f04000f;
+        public static final int maisouicestclair=0x7f040010;
+        public static final int mandoukaredbibe=0x7f040011;
+        public static final int nonnonnon=0x7f040012;
+        public static final int nuclearite=0x7f040013;
+        public static final int onshore=0x7f040014;
+        public static final int ouimaiscestclair=0x7f040015;
+        public static final int posmi=0x7f040016;
+        public static final int quermence=0x7f040017;
+        public static final int quiditcongo=0x7f040018;
+        public static final int relaxation=0x7f040019;
+        public static final int republiqueeddy=0x7f04001a;
+        public static final int savoir=0x7f04001b;
+        public static final int systematique=0x7f04001c;
+        public static final int technicite=0x7f04001d;
+        public static final int tgo=0x7f04001e;
+        public static final int vallium=0x7f04001f;
+        public static final int vegetalisme=0x7f040020;
     }
     public static final class string {
         public static final int action_quit=0x7f060001;
-        public static final int activisme=0x7f060003;
-        public static final int allusion=0x7f060004;
         public static final int app_name=0x7f060000;
-        public static final int bijectivite=0x7f060005;
-        public static final int calcul=0x7f060006;
-        public static final int cestclair=0x7f060007;
-        public static final int compendium=0x7f060008;
-        public static final int congo=0x7f060009;
-        public static final int congolais=0x7f06000a;
-        public static final int eddy=0x7f06000b;
-        public static final int eventualiste=0x7f060011;
-        public static final int fromage=0x7f06000e;
-        public static final int hello_world=0x7f060002;
-        public static final int nuclearite=0x7f06000c;
-        public static final int onshore=0x7f06000d;
-        public static final int travail=0x7f06000f;
-        public static final int valium=0x7f060010;
     }
     public static final class style {
         /** 
