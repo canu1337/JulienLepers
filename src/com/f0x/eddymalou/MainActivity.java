@@ -33,7 +33,8 @@ public class MainActivity extends Activity {
 			"Encrystaliser imposer", "Fait allusion au dynamisme", "TGO", "Mais oui c'est clair!", 
 			"De la république Eddy malou", "Kilometrages offshore", "Mandoukar edbibé", 
 			"La congoléxicomatisation", "E double d", "C'est une bijectivité", 
-			"Faire allusion à informatiser", "C'est l'homme", "Je vous en prie" 
+			"Faire allusion à informatiser", "C'est l'homme", "Je vous en prie", "Quatres carées fous de fromage",
+			"Travail Travail!", "Le compendium"
 		};
 		
 		final ArrayList<String> list = new ArrayList<String>();
@@ -159,6 +160,15 @@ public class MainActivity extends Activity {
 			break;
 			case 32:
 			new Thread(){ public void run(){ MediaPlayer.create(MainActivity.this, R.raw.jevousenprie).start();}}.start();	
+			break;
+			case 33:
+			new Thread(){ public void run(){ MediaPlayer.create(MainActivity.this, R.raw.quatrescarees).start();}}.start();	
+			break;
+			case 34:
+			new Thread(){ public void run(){ MediaPlayer.create(MainActivity.this, R.raw.travail).start();}}.start();	
+			break;
+			case 35:
+			new Thread(){ public void run(){ MediaPlayer.create(MainActivity.this, R.raw.compendium).start();}}.start();	
 			break;
 			
 		}
