@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Julien Lepers</string>
+    <string-array name="sounds_array">
+        <item>Ah oui !</item>
+        <item>Ca c\'est bon !</item>
+        <item>Ca alors !</item>
+        <item>Il pleut des questions !</item>
+        <item>Mais oui bien sûr !</item>
+        <item>Ohlalala</item>
+        <item>Ouais ouais !</item>
+        <item>Ouais ouais ouais !</item>
+        <item>Oui oui oui oui !</item>
+        <item>Oui oui !</item>
+        <item>Wowowowow</item>
+        <item>Tu veux mon zizi ?</item>
+    </string-array>
+    <string name="action_quit">Quitter</string>
+</resources>
